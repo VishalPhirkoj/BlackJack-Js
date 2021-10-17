@@ -22,14 +22,14 @@ for (s in suits) {
 }
 
 if (localStorage.wallatbal == undefined) {
-  localStorage.wallatbal = 500;
-  document.getElementById("myWalletbal5").innerHTML == 500;
+  localStorage.wallatbal = 1000;
+  document.getElementById("myWalletbal5").innerHTML == 1000;
 } else if (localStorage.wallatbal) {
   myWalletbal5.innerHTML = parseInt(localStorage.wallatbal);
 } else {
-  console.log("hey hey");
-  localStorage.wallatbal = 500;
-  document.getElementById("myWalletbal5").innerHTML == 500;
+  //console.log("hey hey");
+  localStorage.wallatbal = 1000;
+  document.getElementById("myWalletbal5").innerHTML == 1000;
 }
 
 var myWalletbal = localStorage.wallatbal;
