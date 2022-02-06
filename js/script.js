@@ -27,7 +27,6 @@ if (localStorage.wallatbal == undefined) {
 } else if (localStorage.wallatbal) {
   myWalletbal5.innerHTML = parseInt(localStorage.wallatbal);
 } else {
-  //console.log("hey hey");
   localStorage.wallatbal = 1000;
   document.getElementById("myWalletbal5").innerHTML == 1000;
 }
