@@ -58,7 +58,7 @@ function startGame() {
     alert("Enter Valid Amount.");
   }
 }
-
+// this is for hit action
 //playerucard funtion for Hit Action
 function playucard() {
   playerCard.push(cards[cardCount]);
