@@ -2,7 +2,7 @@ var cards = [];
 var suits = ["spades", "hearts", "clubs", "diams"];
 var numb = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
 var cardCount = 0;
-// pushing cards in Cards[] array...
+// pushing cards in Cards[] array....
 for (s in suits) {
   var suit = suits[s][0].toUpperCase();
   var bgcolor = suit == "S" || suit == "C" ? "black" : "red";
