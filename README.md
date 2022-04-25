@@ -2,4 +2,5 @@
 BlackJack Game using Bootstrap and Javascript
 Developed by-- Vishal Phirkoj
 
-29, Eshwarsmurthi
+29, Eshwarsmurthi,
+Savedi
